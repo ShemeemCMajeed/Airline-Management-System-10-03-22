@@ -1,0 +1,89 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+body {
+	background-image: url("images/1124362.jpg");
+	height: 145vh;
+	background-size: cover;
+	background-position: center;
+}
+ul {
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+ul li {
+	display: inline-block;
+}
+ul li a{
+	font-size: 25px;
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+ul li a:hover {
+	background-color: #fff;
+	color: #000;
+}
+.main {
+	max-width: 1200px;
+	margin: auto;
+}
+h2 {
+	text-align: center;
+	padding: 20px;
+	font-family: sans-serif;
+}
+div.box {
+	width: 600px;
+    margin-left: 10%;
+}
+.box {
+	width: 400px;
+	height: 1000px;
+	background-color: rgba(0,0,0,0.5);
+	font-size: 18px;
+	border-radius: 10px;
+	border: 1px solid rgba(255,255,255,0.3);
+	box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+	color: #fff;
+	
+}
+form#register {
+   margin:10px 100px;
+}
+label {
+	font-family: sans-serif;
+	font-size: 18px;
+	font-style: italic;
+}
+input[type="text"], input[type="password"], input[type="text"], input[type="email"] {
+	width: 400px;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	outline: 0;
+	padding: 7px;
+	background-color: #fff;
+	box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+}
+input[type="submit"] {
+	width: 400px;
+	padding: 7px;
+	font-size: 16px;
+	font-family: sans-serif;
+	font-weight: 600;
+	border-radius: 3px;
+	background-color: blue; 
+	color: #fff;
+	cursor: pointer;
+	border: 1px solid rgba(255,255,255,0.3);
+	box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+	margin-bottom: 20px;
+}
+label, span, h2 {
+ text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+}
